@@ -3,7 +3,10 @@
 	ci = commit
 	st = status
 	br = branch
-	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	hi = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	df = diff
+	ds = diff --staged
+	ap = add -p
 [core]
         autocrlf = input
         filemode = false
