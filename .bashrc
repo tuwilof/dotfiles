@@ -6,3 +6,5 @@ function parse_git_branch {
   echo "["${ref#refs/heads/}"]"
 }
 PS1="\u@\h:\w\[\033[0;34m\]\$(parse_git_branch)\[\033[0m\]\$ "
+
+export PATH=$HOME/bin:$PATH
