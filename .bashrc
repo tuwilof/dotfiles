@@ -8,3 +8,5 @@ function parse_git_branch {
 PS1="\u@\h:\w\[\033[0;34m\]\$(parse_git_branch)\[\033[0m\]\$ "
 
 export PATH=$HOME/bin:$PATH
+
+export EDITOR=vim
